@@ -31,6 +31,10 @@ DEALINGS IN THE SOFTWARE.
 #include "NRF52LedMatrix.h"
 #include "AnimatedDisplay.h"
 
+// EVENTS
+#define MICROBIT_DISPLAY_EVT_ON_LIGHT                           1
+#define MICROBIT_DISPLAY_EVT_ON_DARK                            2
+
 namespace codal
 {
     /**

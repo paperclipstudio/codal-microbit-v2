@@ -314,6 +314,9 @@ const uint16_t MICROBIT_ID_MBED_TICKER       __attribute__ ((deprecated)) = 83;
 #define MICROBIT_DISPLAY_EVT_ANIMATION_COMPLETE                 DISPLAY_EVT_ANIMATION_COMPLETE
 #define MICROBIT_DISPLAY_EVT_FREE                               DISPLAY_EVT_FREE
 #define MICROBIT_DISPLAY_EVT_LIGHT_SENSE                        DISPLAY_EVT_LIGHT_SENSE
+// [TODO] Add ON LIGHT/DARK into codal core
+//#define MICROBIT_DISPLAY_EVT_ON_LIGHT                           DISPLAY_EVT_ON_LIGHT
+//#define MICROBIT_DISPLAY_EVT_ON_DARK                            DISPLAY_EVT_ON_DARK
 
 #define MICROBIT_SERIAL_EVT_DELIM_MATCH                         CODAL_SERIAL_EVT_DELIM_MATCH
 #define MICROBIT_SERIAL_EVT_HEAD_MATCH                          CODAL_SERIAL_EVT_HEAD_MATCH

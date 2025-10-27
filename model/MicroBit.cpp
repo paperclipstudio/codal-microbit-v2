@@ -355,9 +355,9 @@ void MicroBit::onListenerRegisteredEvent(Event evt)
             break;
 
         case DEVICE_ID_LIGHT_SENSOR:
-            // A listener has been registered for the light sensor.
+            // The light sensor on the Microbit-v2 is built into the led display
             // The light sensor uses lazy instantiation, we just need to read the data once to start it running.
-            //lightSensor.updateSample();
+            display.readLightLevel();
             break;
 
         case DEVICE_ID_SYSTEM_LEVEL_DETECTOR:
